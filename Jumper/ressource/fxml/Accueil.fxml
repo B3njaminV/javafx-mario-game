@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="View.Accueil"
+            stylesheets="@../css/Style.css">
+
+    <ImageView fx:id="fondP" pickOnBounds="true" preserveRatio="true">
+        <Image url="/images/pageprincipal.jpg" ></Image>
+    </ImageView>
+
+    <children>
+        <Text fx:id="titre" text="Jumper GAME" AnchorPane.leftAnchor="38.0" AnchorPane.topAnchor="40.0" styleClass="titre"/>
+    </children>
+
+    <children>
+        <HBox alignment="CENTER" prefHeight="32.0" prefWidth="320.0" spacing="20.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="240.0">
+            <children>
+                <TextField fx:id="field" text="Pseudo" prefWidth="200.0" />
+                <Button fx:id="button" onAction="#handleAction" text="Envoyer" styleClass="boutonEnvoi"/>
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>
