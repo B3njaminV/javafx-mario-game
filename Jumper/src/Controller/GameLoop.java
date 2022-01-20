@@ -54,10 +54,10 @@ public class GameLoop {
                             System.out.println("===> CONTACT");
                             contact = true;
                             sc.ajoutFinPartie();
-                            pv.highScore(sc.score.getNbPoint());
-                            sc.verifHighScore();
                             Audio.playSound("audio/boum.wav");
                             b.afficheBoom();
+                            pv.highScore(sc.score.getNbPoint());
+                            sc.verifHighScore();
                             System.out.println("===> FIN DE PARTIE : " + pv.j.getPseudo() + " -> Score : " + pv.j.getHighScore() + " points - Meilleur Score : " + sc.highScore.getNbPoint() + " points !");
                         }
 
