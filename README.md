@@ -2,7 +2,7 @@
 
 > Jeux de Jumper avec boucle de jeu en JavaFX.
 
-### 🏠 [Homepage](https://gitlab.iut-clermont.uca.fr/clbonaz/jumper_valleix_bonaz)
+### 🏠 [Homepage](https://github.com/B3njaminV/javafx-mario-game)
 
 
 ## 📍 Prérequis
