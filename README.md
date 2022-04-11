@@ -4,6 +4,7 @@
 
 ### 🏠 [Homepage](https://github.com/B3njaminV/javafx-mario-game)
 
+![image](./documentation/jumper.png)
 
 ## 📍 Prérequis
 
